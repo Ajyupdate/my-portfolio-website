@@ -1,7 +1,9 @@
 [build]
   command = "npm run build"
-  publish = "build-output"
+  publish="build/"
+  base = "dragPortfolio/"
 
  [[redirects]]
-  from = "https://some-url.com"
-  to = "https://some-other-url.com"  
+  from = “/*”
+  to = “/index.html”
+  status = 200 
