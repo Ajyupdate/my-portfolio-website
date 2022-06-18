@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e2f7f012.chunk.css",
+    "main.js": "/static/js/main.9ba40f15.chunk.js",
+    "main.js.map": "/static/js/main.9ba40f15.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7a1bfce0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7a1bfce0.js.map",
+    "static/js/2.8f8844dc.chunk.js": "/static/js/2.8f8844dc.chunk.js",
+    "static/js/2.8f8844dc.chunk.js.map": "/static/js/2.8f8844dc.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.e2f7f012.chunk.css.map": "/static/css/main.e2f7f012.chunk.css.map",
+    "static/js/2.8f8844dc.chunk.js.LICENSE.txt": "/static/js/2.8f8844dc.chunk.js.LICENSE.txt",
+    "static/media/Ajibade.aec3896d.jpg": "/static/media/Ajibade.aec3896d.jpg",
+    "static/media/EMMANUEL.e0e02d58.pdf": "/static/media/EMMANUEL.e0e02d58.pdf",
+    "static/media/HistoryDate1.a9b91ab6.png": "/static/media/HistoryDate1.a9b91ab6.png",
+    "static/media/explicit1.b41ea585.png": "/static/media/explicit1.b41ea585.png",
+    "static/media/explicit2.df5e4c92.png": "/static/media/explicit2.df5e4c92.png",
+    "static/media/moskol1.d00a65ef.png": "/static/media/moskol1.d00a65ef.png",
+    "static/media/moskol2.6008d471.png": "/static/media/moskol2.6008d471.png",
+    "static/media/phoneCalculator1.796f8533.png": "/static/media/phoneCalculator1.796f8533.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7a1bfce0.js",
+    "static/js/2.8f8844dc.chunk.js",
+    "static/css/main.e2f7f012.chunk.css",
+    "static/js/main.9ba40f15.chunk.js"
+  ]
+}
