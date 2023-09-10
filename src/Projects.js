@@ -15,7 +15,7 @@ const Projects = () => {
         data-aos="fade-down"
         id="accordionExample">
         <div className="accordion-item">
-          <h2 className="accordion-header" id="headingTwo">
+          <h2 className="accordion-header" id="headingOne">
             <button
               className="accordion-button collapsed"
               type="button"
@@ -28,8 +28,8 @@ const Projects = () => {
           </h2>
           <div
             id="collapseTwo"
-            className="accordion-collapse collapse"
-            aria-labelledby="headingTwo"
+            className="accordion-collapse collapse show"
+            aria-labelledby="headingOne"
             data-bs-parent="#accordionExample">
             <div className="accordion-body">
               <div className="row justify-content-between">
@@ -209,7 +209,7 @@ const Projects = () => {
         </div>
 
         <div className="accordion-item">
-          <h2 className="accordion-header" id="headingOne">
+          <h2 className="accordion-header" id="headingThree">
             <button
               className="accordion-button"
               type="button"
@@ -222,8 +222,8 @@ const Projects = () => {
           </h2>
           <div
             id="collapseOne"
-            className="accordion-collapse collapse show"
-            aria-labelledby="headingOne"
+            className="accordion-collapse collapse "
+            aria-labelledby="headingThree"
             data-bs-parent="#accordionExample">
             <div className="accordion-body">
               <div className="row justify-content-between">
