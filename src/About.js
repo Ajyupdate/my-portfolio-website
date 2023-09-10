@@ -1,5 +1,5 @@
 import Ajibade from './image/Ajibade.jpg'
-import myResume from './cv/myResume.pdf'
+import ajibade from './cv/ajibade.pdf'
 import { Link } from 'react-router-dom';
 const About = () => {
     return ( 
@@ -9,20 +9,19 @@ const About = () => {
             
                 <div className='m-5' data-aos="fade-down">
                     <p data-aos="fade-left">Hi, my name is Ajibade Emmanuel. I am a highly skilled,
-                        self-taught frontend developer and a Mathematics and computer science student of the University
-                        of Lagos.</p>
+                       fullstack developer with a Mathematics and computer science background.</p>
                     <p data-aos="fade-right">With a strong Mathematical background, I found coding 
-                        very interesting as I am very focused in solving problems involving codes.
+                        very interesting as I am very focused in solving problems with codes.
                     </p>
                     <p  data-aos="fade-left">Outside web development I watch and play football and also solve complex Mathematical
-                        problem for fun and boredom
+                        problem for fun and to kill boredom.
                     </p>
-                    <p data-aos="flip-up"><b>I am open for frontend development roles</b></p>
+                    <p data-aos="flip-up"><b>I am open for frontend and backend development roles</b></p>
                 </div>
 
                 <div className=' about-button-div row m-5'>
                 <button type="button"  data-aos="fade-down" className="btn contact-btn  mb-1"><Link to="/Contact">Contact Ajibade</Link></button>
-                <button type="button"   data-aos="fade-right" className="btn download-btn "><a href={myResume} download="myResume.pdf"> Download My Resume </a></button>
+                <button type="button"   data-aos="fade-right" className="btn download-btn "><a href={ajibade} download="ajibade.pdf"> Download My Resume </a></button>
 
 
                     
