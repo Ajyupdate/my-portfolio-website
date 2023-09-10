@@ -21,7 +21,7 @@ const Projects = () => {
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseTwo"
-              aria-expanded="false"
+              aria-expanded="true"
               aria-controls="collapseTwo">
               Moskol Engineering Website
             </button>
@@ -60,7 +60,7 @@ const Projects = () => {
                       className="btn code-btn m-2"
                       data-aos="flip-left">
                       <a
-                        href="https://github.com/Ajyupdate/Moskol-Engineering-Website"
+                        href="https://github.com/Ajyupdate/moskol-rebrand"
                         target="_blank"
                         rel="noreferrer">
                         {" "}
@@ -215,7 +215,7 @@ const Projects = () => {
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseOne"
-              aria-expanded="true"
+              aria-expanded="false"
               aria-controls="collapseOne">
               Github User Search
             </button>
