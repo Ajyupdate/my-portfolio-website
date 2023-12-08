@@ -13,7 +13,8 @@ const Projects = () => {
       <div
         className="accordion accordion-flush"
         data-aos="fade-down"
-        id="accordionExample">
+        id="accordionExample"
+      >
         <div className="accordion-item">
           <h2 className="accordion-header" id="headingOne">
             <button
@@ -22,7 +23,8 @@ const Projects = () => {
               data-bs-toggle="collapse"
               data-bs-target="#collapseTwo"
               aria-expanded="true"
-              aria-controls="collapseTwo">
+              aria-controls="collapseTwo"
+            >
               Moskol Engineering Website
             </button>
           </h2>
@@ -30,7 +32,8 @@ const Projects = () => {
             id="collapseTwo"
             className="accordion-collapse collapse show"
             aria-labelledby="headingOne"
-            data-bs-parent="#accordionExample">
+            data-bs-parent="#accordionExample"
+          >
             <div className="accordion-body">
               <div className="row justify-content-between">
                 <div className="col-md-5">
@@ -47,22 +50,26 @@ const Projects = () => {
                     <button
                       type="button"
                       className="btn live-btn"
-                      data-aos="flip-up">
+                      data-aos="flip-up"
+                    >
                       <a
                         href="https://moskol.vercel.app/"
                         target="_blank"
-                        rel="noreferrer">
+                        rel="noreferrer"
+                      >
                         View Live
                       </a>
                     </button>
                     <button
                       type="button"
                       className="btn code-btn m-2"
-                      data-aos="flip-left">
+                      data-aos="flip-left"
+                    >
                       <a
                         href="https://github.com/Ajyupdate/moskol-rebrand"
                         target="_blank"
-                        rel="noreferrer">
+                        rel="noreferrer"
+                      >
                         {" "}
                         View Code{" "}
                       </a>
@@ -137,7 +144,8 @@ const Projects = () => {
               data-bs-toggle="collapse"
               data-bs-target="#collapseFour"
               aria-expanded="false"
-              aria-controls="collapseFour">
+              aria-controls="collapseFour"
+            >
               Movie App
             </button>
           </h2>
@@ -145,7 +153,8 @@ const Projects = () => {
             id="collapseFour"
             className="accordion-collapse collapse"
             aria-labelledby="headingFour"
-            data-bs-parent="#accordionExample">
+            data-bs-parent="#accordionExample"
+          >
             <div className="accordion-body">
               <div className="row">
                 <div className="col-md-5">
@@ -159,22 +168,26 @@ const Projects = () => {
                     <button
                       type="button"
                       className="btn live-btn"
-                      data-aos="flip-up">
+                      data-aos="flip-up"
+                    >
                       <a
-                        href="https://ajyupdate.github.io/Explicitsuccess.com-clone"
+                        href="https://movies-database-ajy.vercel.app/"
                         target="_blank"
-                        rel="noreferrer">
+                        rel="noreferrer"
+                      >
                         View Live
                       </a>
                     </button>
                     <button
                       type="button"
                       className="btn code-btn m-2"
-                      data-aos="flip-right">
+                      data-aos="flip-right"
+                    >
                       <a
-                        href="https://github.com/Ajyupdate/Explicitsuccess.com-clone"
+                        href="https://github.com/Ajyupdate/movieDatabase"
                         target="_blank"
-                        rel="noreferrer">
+                        rel="noreferrer"
+                      >
                         {" "}
                         View Code{" "}
                       </a>
@@ -216,7 +229,8 @@ const Projects = () => {
               data-bs-toggle="collapse"
               data-bs-target="#collapseOne"
               aria-expanded="false"
-              aria-controls="collapseOne">
+              aria-controls="collapseOne"
+            >
               Github User Search
             </button>
           </h2>
@@ -224,7 +238,8 @@ const Projects = () => {
             id="collapseOne"
             className="accordion-collapse collapse "
             aria-labelledby="headingThree"
-            data-bs-parent="#accordionExample">
+            data-bs-parent="#accordionExample"
+          >
             <div className="accordion-body">
               <div className="row justify-content-between">
                 <div className="col-md-5">
@@ -240,22 +255,26 @@ const Projects = () => {
                     <button
                       type="button"
                       className="btn live-btn"
-                      data-aos="flip-up">
+                      data-aos="flip-up"
+                    >
                       <a
                         href="https://githubusersearch14.netlify.app/"
                         target="_blank"
-                        rel="noreferrer">
+                        rel="noreferrer"
+                      >
                         View Live
                       </a>
                     </button>
                     <button
                       type="button"
                       className="btn code-btn m-2"
-                      data-aos="flip-left">
+                      data-aos="flip-left"
+                    >
                       <a
                         href="https://github.com/Ajyupdate/Search-App-for-github-users"
                         target="_blank"
-                        rel="noreferrer">
+                        rel="noreferrer"
+                      >
                         {" "}
                         View Code{" "}
                       </a>
