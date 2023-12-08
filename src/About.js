@@ -9,7 +9,7 @@ const About = () => {
             
                 <div className='m-5' data-aos="fade-down">
                     <p data-aos="fade-left">Hi, my name is Ajibade Emmanuel. I am a highly skilled,
-                       fullstack developer with a Mathematics and computer science background.</p>
+                       frontend developer with a Mathematics and computer science background.</p>
                     <p data-aos="fade-right">With a strong Mathematical background, I found coding 
                         very interesting as I am very focused in solving problems with codes.
                     </p>
