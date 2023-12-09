@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import ajibadeemmanuel from "./cv/ajibadeemmanuel.pdf";
-import Ajibade from "./image/Ajibade.jpg";
+import Ajibade from "./image/ajibadePic.jpg";
 const About = () => {
   return (
     <div className=" row mt-5 ">
@@ -23,7 +23,7 @@ const About = () => {
             complex Mathematical problem for fun and to kill boredom.
           </p>
           <p data-aos="flip-up">
-            <b>I am open for frontend and backend development roles</b>
+            <b>I am open for frontend development roles</b>
           </p>
         </div>
 
