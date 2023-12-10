@@ -1,8 +1,9 @@
 import Avengers from "./image/Avengers.png";
 import Batman from "./image/Batman.png";
+import evr from "./image/evr.png";
 import githubUser from "./image/githubUser.png";
+import MoskolShot from "./image/moskolShot.png";
 // import historyDate from './image/historyDate.png'
-import moskol from "./image/moskol.png";
 
 // import calculator from './image/calculator.png'
 const Projects = () => {
@@ -21,6 +22,92 @@ const Projects = () => {
               className="accordion-button collapsed"
               type="button"
               data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              Event Scheduler
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            className="accordion-collapse collapse show"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample"
+          >
+            <div className="accordion-body">
+              <div className="row justify-content-between">
+                <div className="col-md-5">
+                  <p>
+                    I call this event scheduler app. This application allows you
+                    to save an event for the present and for the future. You can
+                    also see your past event, edit, delete and create a new
+                    event.
+                  </p>
+                  <p>
+                    I built this using NEXTJS, typescript, Tailwind, Chakra UI
+                    for the frontend and made use of ExpressJS, MongoDb for the
+                    backend. I used some package like JWT for the
+                    authentication, Nodemailer for the token verification.
+                  </p>
+
+                  <div className="project-button-div">
+                    <button
+                      type="button"
+                      className="btn live-btn"
+                      data-aos="flip-up"
+                    >
+                      <a
+                        href="https://evr.vercel.app/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        View Live
+                      </a>
+                    </button>
+                    <button
+                      type="button"
+                      className="btn code-btn m-2"
+                      data-aos="flip-left"
+                    >
+                      <a
+                        href="https://github.com/Ajyupdate/event-scheduler"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        {" "}
+                        View Code{" "}
+                      </a>
+                    </button>
+                  </div>
+                </div>
+
+                <div className="col-md-5">
+                  {/* <div className='row'> */}
+                  <div>
+                    <img
+                      src={evr}
+                      className="img-fluid"
+                      height={300}
+                      alt="A snap of the app"
+                    />
+                  </div>
+                  {/* <div className='col-md-6'>
+              </div> */}
+
+                  {/* </div> */}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="headingTwo">
+            <button
+              className="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
               data-bs-target="#collapseTwo"
               aria-expanded="true"
               aria-controls="collapseTwo"
@@ -30,8 +117,8 @@ const Projects = () => {
           </h2>
           <div
             id="collapseTwo"
-            className="accordion-collapse collapse show"
-            aria-labelledby="headingOne"
+            className="accordion-collapse collapse "
+            aria-labelledby="headingTwo"
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body">
@@ -39,11 +126,11 @@ const Projects = () => {
                 <div className="col-md-5">
                   <p>
                     I built both the frontend and the backend of this project
-                    using the express and NEXTJS. I also used JWT for the
+                    using the ExpressJSs and NEXTJS. I also used JWT for the
                     authorization. In the project, the registered admin can buy,
-                    edit, delete a product. He can also add, delete, and modify
-                    the company's services, while the registered client can only
-                    buy products.
+                    edit, delete a product. He or she can also add, delete, and
+                    modify the company's services, while the registered client
+                    can only buy products.
                   </p>
 
                   <div className="project-button-div">
@@ -81,7 +168,7 @@ const Projects = () => {
                   {/* <div className='row'> */}
                   <div>
                     <img
-                      src={moskol}
+                      src={MoskolShot}
                       className="img-fluid"
                       height={300}
                       alt="A snap of the app"
@@ -161,7 +248,8 @@ const Projects = () => {
                   <p>
                     This application allows user to search for movies they want
                     to know about. It summarizes the details of movies for the
-                    user. I built it using React Native as the basic tool.
+                    user. I built both the web version and the mobile version
+                    using NEXTJS and React Native respectively.
                   </p>
 
                   <div className="project-button-div">
@@ -175,7 +263,21 @@ const Projects = () => {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        View Live
+                        View Web
+                      </a>
+                    </button>
+
+                    <button
+                      type="button"
+                      className="btn live-btn m-2"
+                      data-aos="flip-up"
+                    >
+                      <a
+                        href="https://expo.dev/@ajy14/movieDetails3?release-channel=default"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        View Mobile
                       </a>
                     </button>
                     <button
@@ -227,15 +329,15 @@ const Projects = () => {
               className="accordion-button"
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#collapseOne"
+              data-bs-target="#collapseThree"
               aria-expanded="false"
-              aria-controls="collapseOne"
+              aria-controls="collapseThree"
             >
               Github User Search
             </button>
           </h2>
           <div
-            id="collapseOne"
+            id="collapseThree"
             className="accordion-collapse collapse "
             aria-labelledby="headingThree"
             data-bs-parent="#accordionExample"
